@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background-color: coral;
+    margin: 0;
+    font-family: sans-serif;
+}
+.perso_uno{
+    padding-top: 20px;
+margin: 0;
+    background-color: cyan;
+    text-align: center;
+   
+}
+
+.perso_dos{
+    padding-top: 20px;
+   
+   background-color: floralwhite;
+text-align: center;
+    margin: 0;
+  
+
+}
+.perso_tres{
+    padding-top: 20px; 
+    background-color:#758694;
+    text-align: center;
+    margin: 0;
+    
+}
+.enlaces{
+width: 250px;
+height: 200px;
+    margin: 0;
+    background-color: cyan;
+    text-align: center;
+    display: inline-block;
+}
+p{
+background-color: aliceblue;
+}
+h1{
+    background-color: aqua;
+}
+h2{
+    background-color: aqua;
+}
+.icon{
+    height: 120px;
+    width: 300px;
+}
+.link_paginas{
+background-color: aliceblue;
+    padding: 45px;
+    height: 140px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    transition: bacground-color 0,3s,
+    border-radius 0.24s, outline 0.3, outline-offset 0,3s;
+
+}
+.link_paginas:hover{
+    background-color: lightblue;
+    border-radius: 20px;
+    outline: 2px solid #f80;
+    outline-offset: -7px;
+}

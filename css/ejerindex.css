@@ -1,0 +1,41 @@
+body{
+text-align: center;
+    background-color:#E9C46A ;
+}
+h1,h2{
+    background-color: #FF6969;
+    text-align: center;
+}
+
+.link_paginas{
+    justify-content: center;
+    background-color: aliceblue;
+        padding: 30px;
+        height: 70px;
+        width: 268px;
+        display: inline-block;
+        text-align: center;
+        transition: bacground-color 0,3s,
+        border-radius 0.24s, outline 0.3, outline-offset 0,3s;
+    
+    }
+    .link_paginas:hover{
+        justify-content: center;
+        background-color: lightblue;
+        border-radius: 30px;
+        outline: 2px solid #f80;
+        outline-offset: -7px;
+        text-align: center;
+    }
+    p{
+        justify-content: center;
+        padding: 30px;
+        background-color: aliceblue;
+    }
+    .fondo{
+       max-width: 100%;
+       height: auto;
+       justify-content: center;
+       text-align: center;
+    }
+    
